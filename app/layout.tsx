@@ -24,7 +24,7 @@ export const metadata = {
 const RootLayout: FC<Props> = ({children}) => {
   return (
       <html lang="en">
-      <body>
+      <body className="text-white">
       <div>
         {children}
       </div>
