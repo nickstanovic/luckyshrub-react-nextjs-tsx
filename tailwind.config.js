@@ -15,7 +15,10 @@ module.exports = {
       colors: {
         'clay': '#C3B091',
         'grass': '#26877F',
-      }
+      },
+      fontFamily: {
+        'indie': ['Indie Flower', 'sans-serif'],
+      },
     }
   }
 }
