@@ -31,7 +31,7 @@ const RootLayout: FC<Props> = ({children}) => {
           <div className="md:container md:mx-auto min-h-screen drop-shadow-container bg-clay">
               <Header />
               <Nav />
-                {children}
+              {children}
           </div>
         <Footer />
       </body>
