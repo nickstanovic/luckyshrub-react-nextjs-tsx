@@ -27,7 +27,7 @@ export const metadata = {
 const RootLayout: FC<Props> = ({children}) => {
   return (
       <html lang="en">
-      <body className="text-white bg-green-800/30">
+      <body className="text-lg text-white lg:text-2xl bg-green-800/30">
           <div className="md:container md:mx-auto min-h-screen drop-shadow-container bg-clay">
               <Header />
               <Nav />
