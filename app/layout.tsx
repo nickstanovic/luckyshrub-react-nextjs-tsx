@@ -3,6 +3,7 @@ import React, {FC} from 'react'
 import Footer from "@/components/Footer"
 import Header from "@/components/Header"
 import Nav from "@/components/Nav"
+import Main from "@/components/Main"
 
 interface Props {
   children: React.ReactNode
@@ -31,6 +32,7 @@ const RootLayout: FC<Props> = ({children}) => {
           <div className="md:container md:mx-auto min-h-screen drop-shadow-container bg-clay">
               <Header />
               <Nav />
+              <Main />
               {children}
           </div>
         <Footer />
