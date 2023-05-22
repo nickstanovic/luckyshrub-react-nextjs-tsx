@@ -15,7 +15,7 @@ const Main: FC = () => {
                 />
                 <h1>Welcome to Lucky Shrub!</h1>
             </main>
-            <div className="articles-container">
+            <div className="grid grid-cols-3 articles-container">
                 <Article
                     id="green-article"
                     image="/img/green-article-logo.webp"
