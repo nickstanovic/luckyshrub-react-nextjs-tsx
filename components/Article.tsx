@@ -9,12 +9,13 @@ interface ArticleProps {
 }
 
 const Article: FC<ArticleProps> = ({ id, image, title, description }) => (
-    <article className="article-item" id={id}>
+    <article>
         <Image
             src={image}
             alt={title}
             width={75}
             height={150}
+            className="mx-auto"
         />
         <h2>{title}</h2>
         <p>{description}</p>
