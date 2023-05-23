@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 const Nav: FC = () => {
     return (
-        <nav className="md:container md:mx-auto bg-grass text-white text-center drop-shadow-nav font-bold py-2">
+        <nav className="md:container md:mx-auto bg-grass text-white text-center drop-shadow-nav font-bold py-2 hidden lg:block">
             <ul className="grid grid-cols-4">
                 <li>
                     <Link href="/">Home</Link>

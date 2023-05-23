@@ -4,6 +4,7 @@ import Footer from "@/components/Footer"
 import Header from "@/components/Header"
 import Nav from "@/components/Nav"
 import {Metadata} from "next"
+import BottomNav from "@/components/BottomNav"
 
 
 export const metadata: Metadata = {
@@ -38,6 +39,7 @@ const RootLayout: FC<Props> = ({children}) => {
               {children}
           </div>
         <Footer />
+        <BottomNav />
       </body>
       </html>
   )

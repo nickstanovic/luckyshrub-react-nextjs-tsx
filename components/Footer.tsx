@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 const Footer: FC = () => {
     return (
-        <footer className="md:container md:mx-auto grid grid-cols-2 bg-grass text-white drop-shadow-container">
+        <footer className="hidden md:container md:mx-auto lg:grid grid-cols-2 bg-grass text-white drop-shadow-container">
             <Image
                 src="/img/lucky-shrub-logo-footer.webp"
                 alt=""
