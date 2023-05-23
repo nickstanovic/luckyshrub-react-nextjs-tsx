@@ -16,7 +16,7 @@ const Article: FC<ArticleProps> = ({ image, title, description }) => (
             height={150}
             className="mx-auto py-4"
         />
-        <h2 className="">{title}</h2>
+        <h2 className="text-2xl">{title}</h2>
         <p>{description}</p>
     </article>
 )
