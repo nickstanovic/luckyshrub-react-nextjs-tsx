@@ -18,7 +18,6 @@ const Home: FC = () => {
             </main>
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 p-4 text-center">
                 <Article
-                    color="text-teal-600"
                     image="/img/green-article-logo.webp"
                     title="Green Shrubs"
                     description="You'll love our variety of lush green shrubs, such as boxwood, holly, and juniper, that can enhance the beauty of your garden or indoor space."
@@ -30,6 +29,7 @@ const Home: FC = () => {
                     description="Check out our vibrant red shrubs, including red barberry, red twig dogwood, and red chokeberry, which can add a pop of color and visual interest to your garden or landscaping."
                 />
                 <Article
+                    color="text-white"
                     image="/img/white-article-logo.webp"
                     title="White Shrubs"
                     description="We offer elegant white shrubs, including popular options like white hydrangeas, white azaleas, and white snowberry bushes, which can add a touch of classic beauty and charm to any garden or outdoor space"

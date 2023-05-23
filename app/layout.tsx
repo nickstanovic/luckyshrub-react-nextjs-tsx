@@ -31,7 +31,7 @@ interface Props {
 const RootLayout: FC<Props> = ({children}) => {
   return (
       <html lang="en">
-      <body className="text-xl text-white lg:text-2xl bg-green-800/30">
+      <body className="text-xl text-grass font-bold lg:text-2xl bg-green-800/30">
           <div className="md:container md:mx-auto min-h-screen drop-shadow-container bg-clay">
               <Header />
               <Nav />
