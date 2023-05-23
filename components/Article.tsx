@@ -5,10 +5,11 @@ interface ArticleProps {
     image: string;
     title: string;
     description: string;
+    color?: string;
 }
 
-const Article: FC<ArticleProps> = ({ image, title, description }) => (
-    <article>
+const Article: FC<ArticleProps> = ({ image, title, description, color }) => (
+    <article className={color}>
         <Image
             src={image}
             alt={title}

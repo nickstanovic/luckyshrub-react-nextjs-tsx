@@ -5,7 +5,7 @@ const Main: FC = () => {
     return (
         <>
             <main className="drop-shadow-container">
-                <span className="absolute bg-black bg-opacity-70 text-white z-10 text-xl lg:text-4xl">
+                <span className="absolute bg-black bg-opacity-70 text-white z-10 text-xl lg:text-5xl">
                     20% Spring Sale until June 1st :)
                 </span>
                 <picture>
@@ -17,11 +17,13 @@ const Main: FC = () => {
             </main>
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 p-4 text-center">
                 <Article
+                    color="text-teal-600"
                     image="/img/green-article-logo.webp"
                     title="Green Shrubs"
                     description="You'll love our variety of lush green shrubs, such as boxwood, holly, and juniper, that can enhance the beauty of your garden or indoor space."
                 />
                 <Article
+                    color="text-red-600"
                     image="/img/red-article-logo.webp"
                     title="Red Shrubs"
                     description="Check out our vibrant red shrubs, including red barberry, red twig dogwood, and red chokeberry, which can add a pop of color and visual interest to your garden or landscaping."

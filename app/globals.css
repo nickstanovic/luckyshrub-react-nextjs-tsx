@@ -1,14 +1,9 @@
+@import '@fontsource/indie-flower';
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@font-face {
-    font-family: 'Indie Flower';
-    src: url('/public/fonts/IndieFlower.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
 
 body {
     font-family: 'Indie Flower', sans-serif;
