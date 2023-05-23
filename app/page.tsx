@@ -5,6 +5,19 @@ import Article from "@/components/Article"
 export const metadata: Metadata = {
     title: 'Welcome to Lucky Shrub',
     description: 'Bring life to your living spaces with Lucky Shrub diverse collection of indoor and outdoor plants',
+    openGraph: {
+        title: 'Lucky Shrub',
+        description: "Bring life to your living spaces with Lucky Shrub diverse collection of indoor and outdoor plants",
+        url: 'https://nickstanovic.github.io/lucky-shrub/',
+        siteName: 'Lucky Shrub',
+        images: [
+            {
+                url: '/public/img/lucky-shrub.webp',
+            }
+        ],
+        locale: 'en-US',
+        type: 'website',
+    },
 }
 
 const Home: FC = () => {
