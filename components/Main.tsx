@@ -1,18 +1,18 @@
 import { FC } from 'react';
-import Image from 'next/image';
 import Article from './Article';
 
 const Main: FC = () => {
     return (
         <>
             <main className="drop-shadow-container">
-                <span className="absolute bg-black bg-opacity-70 text-white z-10 text-xl">20% Spring Sale until June 1st :)</span>
-                <Image
-                    src='/img/lucky-shrub.webp'
-                    alt='Lucky Shrub Shop'
-                    width={1600}
-                    height={1066}
-                />
+                <span className="absolute bg-black bg-opacity-70 text-white z-10 text-xl">
+                    20% Spring Sale until June 1st :)
+                </span>
+                <picture>
+                    <source srcSet="/img/lucky-shrub.webp" media="(min-width: 768px)" />
+                    <source srcSet="/img/lucky-shrub-mobile.webp" media="(max-width: 767px)" />
+                    <img src="/img/lucky-shrub.webp" alt="Lucky Shrub Shop" />
+                </picture>
                 <h1 className="text-2xl text-center">Welcome to Lucky Shrub!</h1>
             </main>
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 p-4 text-center">
