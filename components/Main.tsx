@@ -5,7 +5,7 @@ const Main: FC = () => {
     return (
         <>
             <main className="drop-shadow-container">
-                <span className="absolute bg-black bg-opacity-70 text-white z-10 text-xl">
+                <span className="absolute bg-black bg-opacity-70 text-white z-10 text-xl lg:text-4xl">
                     20% Spring Sale until June 1st :)
                 </span>
                 <picture>
