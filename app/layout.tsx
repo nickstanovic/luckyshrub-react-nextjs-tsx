@@ -33,7 +33,7 @@ const RootLayout: FC<Props> = ({children}) => {
   return (
       <html lang="en">
       <body className="text-xl text-grass font-bold lg:text-2xl bg-green-800/30">
-          <div className="md:container md:mx-auto min-h-screen drop-shadow-container bg-clay">
+          <div className="md:container md:mx-auto min-h-screen drop-shadow-container bg-clay pb-12">
               <Header />
               <Nav />
               {children}
