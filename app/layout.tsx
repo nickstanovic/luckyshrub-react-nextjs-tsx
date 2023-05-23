@@ -6,7 +6,6 @@ import Nav from "@/components/Nav"
 
 interface Props {
   children: React.ReactNode
-
 }
 
 const RootLayout: FC<Props> = ({children}) => {

@@ -23,11 +23,11 @@ export const metadata: Metadata = {
 const Home: FC = () => {
     return (
         <>
-            <main className="drop-shadow-container">
+            <main>
                 <span className="absolute bg-black bg-opacity-70 text-white z-10 text-xl lg:text-5xl">
                     20% Spring Sale until June 1st :)
                 </span>
-                <picture>
+                <picture className="drop-shadow-container">
                     <source srcSet="/img/lucky-shrub.webp" media="(min-width: 768px)" />
                     <source srcSet="/img/lucky-shrub-mobile.webp" media="(max-width: 767px)" />
                     <img src="/img/lucky-shrub.webp" alt="Lucky Shrub Shop" />

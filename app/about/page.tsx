@@ -4,12 +4,13 @@ import Image from "next/image"
 const About: FC = () => {
     return (
         <>
-            <main className="drop-shadow-container">
+            <main>
                 <Image
                     src="/img/lucky-shrub-about.webp"
                     alt="About Lucky Shrub"
                     width={976}
                     height={800}
+                    className="drop-shadow-container"
                 />
                 <h1 className="text-3xl lg:text-4xl text-center">About Us</h1>
                 <p>Lucky Shrub is a medium-sized garden design firm that specializes in garden design and creation, maintenance and landscaping. Based in Taos, New Mexico, Lucky Shrub is a small plant nursery that sells indoor and outdoor plants, making them a one-stop shop for clients to "transform any space into an oasis you can be proud of".</p>
