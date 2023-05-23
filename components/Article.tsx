@@ -2,13 +2,12 @@ import { FC } from 'react';
 import Image from 'next/image';
 
 interface ArticleProps {
-    id: string;
     image: string;
     title: string;
     description: string;
 }
 
-const Article: FC<ArticleProps> = ({ id, image, title, description }) => (
+const Article: FC<ArticleProps> = ({ image, title, description }) => (
     <article>
         <Image
             src={image}
