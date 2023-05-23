@@ -14,3 +14,7 @@ body {
     font-family: 'Indie Flower', sans-serif;
     text-shadow: 1px 1px 0 #484848
 }
+
+img {
+    padding-bottom: 2rem;
+}

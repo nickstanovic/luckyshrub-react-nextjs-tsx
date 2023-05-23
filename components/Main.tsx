@@ -13,7 +13,7 @@ const Main: FC = () => {
                     <source srcSet="/img/lucky-shrub-mobile.webp" media="(max-width: 767px)" />
                     <img src="/img/lucky-shrub.webp" alt="Lucky Shrub Shop" />
                 </picture>
-                <h1 className="text-2xl text-center">Welcome to Lucky Shrub!</h1>
+                <h1 className="text-3xl lg:text-4xl text-center">Welcome to Lucky Shrub!</h1>
             </main>
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 p-4 text-center">
                 <Article
