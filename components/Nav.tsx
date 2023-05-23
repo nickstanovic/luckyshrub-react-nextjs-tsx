@@ -1,6 +1,7 @@
+import React, { FC } from 'react';
 import Link from 'next/link';
 
-const Nav = () => {
+const Nav: FC = () => {
     return (
         <nav className="md:container md:mx-auto bg-grass text-center drop-shadow-nav py-2">
             <ul className="grid grid-cols-4">
