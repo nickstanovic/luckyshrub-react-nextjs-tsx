@@ -1,7 +1,5 @@
-import { Metadata } from 'next';
 import React, { FC } from 'react';
 import Article from "@/components/Article"
-
 
 
 const Home: FC = () => {
