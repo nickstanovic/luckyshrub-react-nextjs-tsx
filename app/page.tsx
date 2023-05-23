@@ -2,29 +2,13 @@ import { Metadata } from 'next';
 import React, { FC } from 'react';
 import Article from "@/components/Article"
 
-export const metadata: Metadata = {
-    title: 'Welcome to Lucky Shrub',
-    description: 'Bring life to your living spaces with Lucky Shrub diverse collection of indoor and outdoor plants',
-    openGraph: {
-        title: 'Lucky Shrub',
-        description: "Bring life to your living spaces with Lucky Shrub diverse collection of indoor and outdoor plants",
-        url: 'https://nickstanovic.github.io/lucky-shrub/',
-        siteName: 'Lucky Shrub',
-        images: [
-            {
-                url: '/public/img/lucky-shrub.webp',
-            }
-        ],
-        locale: 'en-US',
-        type: 'website',
-    },
-}
+
 
 const Home: FC = () => {
     return (
         <>
             <main>
-                <span className="absolute bg-black bg-opacity-70 text-white z-10 text-xl lg:text-5xl">
+                <span className="absolute bg-black bg-opacity-70 text-white z-10 text-2xl lg:text-5xl">
                     20% Spring Sale until June 1st :)
                 </span>
                 <picture className="drop-shadow-container">
