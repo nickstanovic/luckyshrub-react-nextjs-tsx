@@ -16,7 +16,7 @@ const BottomNav: FC = () => {
     }
 
     return (
-        <nav className="lg:hidden">
+        <nav className="lg:hidden fixed bottom-0 w-full">
             <BottomNavigation
                 sx={{
                     background: '#26877F'
