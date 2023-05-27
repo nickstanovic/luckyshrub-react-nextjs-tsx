@@ -34,7 +34,7 @@ const ContactForm: FC = () => {
                     alt="About Lucky Shrub"
                     width={976}
                     height={800}
-                    className="mx-auto py-6"
+                    className="mx-auto py-6 drop-shadow-container"
                 />
                 <h1 className="text-3xl lg:text-5xl text-center">Contact Us</h1>
                 <p className="lg:mx-20 lg:text-center lg:mb-10 lg:p-4 p-6">Have a technical issue? Want to send feedback? Any questions at all? Maybe you just want to say hi? Let us know.</p>
