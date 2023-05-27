@@ -9,8 +9,8 @@ type PlantProps = {
 };
 
 const Plant: FC<PlantProps> = ({src, alt, title, name}) => (
-    <div>
-        <Image className="mx-auto" src={src} alt={alt} title={title} width={273} height={298}/>
+    <div className="mb-10">
+        <Image className="mx-auto -mb-8" src={src} alt={alt} title={title} width={273} height={298}/>
         <p>{name}</p>
     </div>
 )
