@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     openGraph: {
         title: 'Lucky Shrub',
         description: "Bring life to your living spaces with Lucky Shrub diverse collection of indoor and outdoor plants",
-        url: 'https://nickstanovic.github.io/lucky-shrub/',
+        url: 'https://luckyshrub.vercel.app',
         siteName: 'Lucky Shrub',
         images: [
             {
