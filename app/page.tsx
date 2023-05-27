@@ -6,7 +6,7 @@ const Home: FC = () => {
     return (
         <>
             <main>
-                <span className="absolute bg-black bg-opacity-70 text-white z-10 text-2xl lg:text-5xl">
+                <span className="absolute bg-black bg-opacity-70 text-white z-10 text-3xl lg:text-5xl">
                     Plant A Summer Smile :)
                 </span>
                 <picture className="drop-shadow-container">
