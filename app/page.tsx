@@ -7,7 +7,7 @@ const Home: FC = () => {
         <>
             <main>
                 <span className="absolute bg-black bg-opacity-70 text-white z-10 text-2xl lg:text-5xl">
-                    20% Spring Sale until June 1st :)
+                    Plant A Summer Smile :)
                 </span>
                 <picture className="drop-shadow-container">
                     <source srcSet="/img/assets/lucky-shrub.webp" media="(min-width: 768px)" />
