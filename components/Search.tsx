@@ -19,7 +19,7 @@ const Search: FC<SearchProps> = ({onSearch}) => {
     return (
         <input
             type="text"
-            placeholder="Search for products"
+            placeholder=" Search for products"
             value={searchText}
             onChange={handleSearch}
         />
