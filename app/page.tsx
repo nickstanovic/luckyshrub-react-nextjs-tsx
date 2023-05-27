@@ -10,9 +10,9 @@ const Home: FC = () => {
                     Plant A Summer Smile :)
                 </span>
                 <picture className="drop-shadow-container">
-                    <source srcSet="/img/assets/lucky-shrub.webp" media="(min-width: 768px)" />
-                    <source srcSet="/img/assets/lucky-shrub-mobile.webp" media="(max-width: 767px)" />
-                    <img src="/img/assets/lucky-shrub.webp" alt="Lucky Shrub Shop" />
+                    <source srcSet="/img/lucky-shrub.webp" media="(min-width: 768px)" />
+                    <source srcSet="/img/lucky-shrub-mobile.webp" media="(max-width: 767px)" />
+                    <img src="/img/lucky-shrub.webp" alt="Lucky Shrub Shop" />
                 </picture>
                 <h1 className="text-3xl lg:text-5xl text-center">Welcome to Lucky Shrub!</h1>
             </main>
