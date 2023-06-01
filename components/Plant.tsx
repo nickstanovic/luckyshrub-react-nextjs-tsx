@@ -10,11 +10,11 @@ type PlantProps = {
 };
 
 const Plant: FC<PlantProps> = ({src, alt, title, name, color}) => {
-    // Mapping plant colors to Tailwind CSS classes
+
     const colorClasses = {
         green: '',
         red: 'text-red-600',
-        white: 'text-white', // White text might not be visible, so I'm using gray here
+        white: 'text-white',
     };
     const textColor = colorClasses[color];
 
