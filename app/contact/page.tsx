@@ -31,7 +31,7 @@ const ContactForm: FC = () => {
             <main className="lg:col-span-3">
                 <Image
                     src="/img/lucky-shrub-contact.webp"
-                    alt="About Lucky Shrub"
+                    alt="Contact Lucky Shrub"
                     width={976}
                     height={800}
                     className="mx-auto py-6 drop-shadow-container"
