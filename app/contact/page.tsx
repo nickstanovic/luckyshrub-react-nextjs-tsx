@@ -23,7 +23,28 @@ const ContactForm: FC = () => {
 
     const handleSubmit = async (event: FormEvent) => {
         event.preventDefault();
-        setButtonLabel('Message sent!');
+        setButtonLabel('Sending...');
+
+        try {
+            const response = await fetch('/api/contact', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(formValues)
+            });
+
+            if (response.status === 200) {
+                setButtonLabel('Message sent!');
+            } else {
+                const data = await response.json();
+                console.error(data);
+                setButtonLabel('Message not sent. Try again!');
+            }
+        } catch (err) {
+            console.error(err);
+            setButtonLabel('Message not sent. Try again!');
+        }
     }
 
     return (
